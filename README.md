@@ -1,4 +1,4 @@
-# Face Detection & Tracking & Extract
+# MOT Face And Recognition
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
@@ -31,14 +31,6 @@ python3 start.py --face_landmarks
 * You can run it to extract the optimal face for everyone from a lot of videos and use it as a training set for **CNN Training**.
 * You can also send the extracted face to the backend for **Face Recognition**.
 
-
-
-## Results
-![alt text](https://raw.githubusercontent.com/wiki/Linzaer/Face-Track-Detect-Extract/pic4.gif "scene 1")
-![alt text](https://raw.githubusercontent.com/wiki/Linzaer/Face-Track-Detect-Extract/pic5.jpg "faces extracted")
-
-## Special Thanks to:
-*  [**experimenting-with-sort**](https://github.com/ZidanMusk/experimenting-with-sort) 
 
 ## License
 MIT LICENSE
