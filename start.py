@@ -36,7 +36,7 @@ def main():
 
     logger.info('Start track and extract......')
     with tf.Graph().as_default():
-        with tf.Session(config=tf.ConfigProto(gpu_options=tf.GPUOptions(allow_growth=True),
+        with tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=tf.compat.v1.GPUOptions(allow_growth=True),
                                               log_device_placement=False)) as sess:
             pnet, rnet, onet = detect_face.create_mtcnn(sess, os.path.join(project_dir, "align"))
 

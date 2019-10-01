@@ -8,7 +8,7 @@
 ## Introduction
 * **Dependencies:**
 	* Python 3.5+
-	* Tensorflow
+	* Tensorflow 2.0
 	* [**MTCNN**](https://github.com/davidsandberg/facenet/tree/master/src/align)
 	* Scikit-learn
 	* Numpy
