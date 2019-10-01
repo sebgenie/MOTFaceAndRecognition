@@ -203,6 +203,7 @@ class Network(object):
             input_shape = inp.get_shape()
             print("shape is: ")
             print(input_shape)
+
             if input_shape.ndims == 4:
                 # The input is spatial. Vectorize it first.
                 dim = 1
